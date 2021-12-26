@@ -107,7 +107,7 @@ const NewsLatter = ({ setSnackBarMessage, setSnackBarColor, setShowSnackBar }) =
 
     const handlePostData = () => {
         setIsPost(true)
-        axios.post("https://dollarlogoclubblog.herokuapp.com/data/post", {
+        axios.post("https://dollarlogoclub.herokuapp.com/data/post", {
             email: email,
             name: name
         }).then(res => {
